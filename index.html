@@ -1,24 +1,5 @@
-html
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Bonjour</title>
-</head>
-<body>
-    <form action="https://formsubmit.co/supercooleadresse1999@gmail.com" method="POST" enctype="multipart/form-data">
-        <!-- Activation-friendly hidden fields -->
-        <input type="hidden" name="_subject" value="New Submission - Verify Your Form">
-        <input type="hidden" name="_template" value="table">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_autoresponse" value="Thank you! We received your submission. Please check your email to verify this form.">
-        
-        <!-- Your form fields -->
-        <input type="file" name="image" required><br>
-        <textarea name="note" placeholder="Text..." required></textarea><br>
-        
-        <button type="submit">Send & Activate Form</button>
-    </form>
-
-    <p><small>After submitting, check your email to verify and activate this form.</small></p>
-</body>
-</html>
+<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" enctype="multipart/form-data">
+    <input type="file" name="image" required>
+    <textarea name="note" placeholder="Text..." required></textarea>
+    <button type="submit">Send</button>
+</form>
